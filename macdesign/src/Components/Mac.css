@@ -1,0 +1,310 @@
+.background-image{
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/1455.jpg');
+    background-size: cover;
+    width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+}
+.color{
+color:#fff;
+font-weight: 700;
+font-size: .875rem;
+    line-height: 1.25rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.colors{
+    color:#f5eeee;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    
+}
+.header{
+    --tw-bg-opacity: 0.4;
+    background-color: rgba(75,85,99,var(--tw-bg-opacity));
+    width: 100vw;
+    height: 3vh;
+    border-color: rgba(107,114,128,var(--tw-border-opacity));
+    border-bottom-width: 1px;
+    
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    --tw-bg-opacity: 0.1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    border-radius: 0.75rem;
+    width: fit-content;
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+.word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.images{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ position: fixed;
+ right: 0;
+ cursor: pointer;
+}
+
+.text{
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: .75rem;
+    /* line-height: 1rem; */
+   
+    padding-left: 0.5rem;
+    padding-bottom: 0.125rem;
+    padding-right:10px;
+    padding-top: 0.125rem;
+    border-radius: 0.375rem;
+    color:#f0eded;
+    font-size: .875rem;
+    /* line-height: 1.25rem; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+  
+
+}
+.dropdown1{
+    position: fixed;
+    top:23px;
+    left: 0;
+    --tw-bg-opacity: 0.4;
+    border:1px solid rgba(106,114,127,1);
+    background-color: rgba(75,85,99,var(--tw-bg-opacity));
+    width: 15%;
+    border-radius: 5%;
+    height: auto;
+    
+}
+.apple{
+color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding-left: 5px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.apple:hover{
+    background-color: rgb(86, 78, 199);
+    border-radius: 5px;
+}
+.line{
+    border-bottom: 1px solid rgba(106,114,127,1);
+}
+.dropdown2{
+    position: absolute;
+    top:23px;
+    left: 15px;
+    --tw-bg-opacity: 0.4;
+    border:1px solid rgba(106,114,127,1);
+    background-color: rgba(75,85,99,var(--tw-bg-opacity));
+    width: 10%;
+    border-radius: 5%;
+    height: auto;
+    
+}
+.finder{
+    color: #ebe1e1;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+        
+    }
+    .finder:hover{
+        background-color: rgb(86, 78, 199);
+    border-radius: 5px;
+    }
+    .dropdown3{
+        position: absolute;
+        top:23px;
+        left: 80px;
+        --tw-bg-opacity: 0.4;
+        border:1px solid rgba(106,114,127,1);
+        background-color: rgba(75,85,99,var(--tw-bg-opacity));
+        width: 10%;
+        border-radius: 5%;
+        height: auto;
+        
+    }   
+    .edit{
+        color: #fff;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .edit:hover{
+        background-color: rgb(86, 78, 199);
+        border-radius: 5px;
+    }
+    .dropdown4{
+        position: absolute;
+        top:23px;
+        left: 120px;
+        --tw-bg-opacity: 0.4;
+        border:1px solid rgba(106,114,127,1);
+        background-color: rgba(75,85,99,var(--tw-bg-opacity));
+        width: 10%;
+        border-radius: 5%;
+        height: auto;
+        
+    }   
+    .view{
+        color: #fff;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .view:hover{
+        background-color: rgb(86, 78, 199);
+        border-radius: 5px;
+    }
+    .dropdown5{
+        position: absolute;
+        top:23px;
+        left: 180px;
+        --tw-bg-opacity: 0.4;
+        border:1px solid rgba(106,114,127,1);
+        background-color: rgba(75,85,99,var(--tw-bg-opacity));
+        width: 10%;
+        border-radius: 5%;
+        height: auto;
+        
+    }   
+    .go{
+        color: #fff;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .go:hover{
+        background-color: rgb(86, 78, 199);
+        border-radius: 5px;
+    }
+    .dropdown6{
+        position: absolute;
+        top:23px;
+        left: 230px;
+        --tw-bg-opacity: 0.4;
+        border:1px solid rgba(106,114,127,1);
+        background-color: rgba(75,85,99,var(--tw-bg-opacity));
+        width: 10%;
+        border-radius: 5%;
+        height: auto;
+        
+    }   
+    .window{
+        color: #fff;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .window:hover{
+        background-color: rgb(86, 78, 199);
+        border-radius: 5px;
+    }
+    .dropdown7{
+        position: absolute;
+        top:23px;
+        left: 300px;
+        --tw-bg-opacity: 0.4;
+        border:1px solid rgba(106,114,127,1);
+        background-color: rgba(75,85,99,var(--tw-bg-opacity));
+        width: 10%;
+        border-radius: 5%;
+        height: auto;
+        
+    }   
+    .help{
+        color: #fff;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: left;
+        padding-left: 5px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .help:hover{
+        background-color: rgb(86, 78, 199);
+        border-radius: 5px;
+    }
+    .photo{
+        width:100%;
+    }
+    
+     .photo:hover{
+        display: flex;
+        justify-content: space-between;
+        width:20%;
+        /* transition: all 0.2s linear 0s; */
+        position: absolute;
+        bottom:15px ;
+        height: 100px;
+        width:100px;
+       
+    } 
+    /* .rainbow{
+        background-color: none;
+    }
+    .clicked{
+        background-color:skyblue;
+    } */
+    .folder{
+        cursor: pointer;
+    }
+    .active {
+
+       background-color: rgba(5, 99, 150,1 );
+       border:3px solid rgba(106,114,127,1);
+      border-radius: 5px;
+      padding: 5px;
+      }
+      .texts{
+        background-color: rgb(85, 85, 228);
+      }
